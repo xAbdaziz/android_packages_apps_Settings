@@ -3457,5 +3457,20 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.xtended.Xtensions"/>
         </activity>
+
+        <!-- Xtended Team dialog -->
+        <activity android:name="com.android.settings.xtended.TeamActivity"
+                  android:taskAffinity=""
+                  android:parentActivityName="Settings"
+                  android:theme="@style/TeamDialog"
+                  android:label="@string/dialog_team_title" >
+                  <intent-filter>  
+                  		<action android:name="com.xtended.TeamActivity"/>  
+                		<category android:name="android.intent.category.DEFAULT" />  
+            	  </intent-filter>
+            	  <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                  android:value="com.android.settings.xtended.TeamActivity" />
+        </activity>
+        
     </application>
 </manifest>

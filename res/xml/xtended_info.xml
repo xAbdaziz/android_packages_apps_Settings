@@ -21,18 +21,29 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                 android:enabled="false"
 		android:layout="@layout/xtended_about" />
 
-	<!-- Summary -->
-	<Preference
+		<!-- Summary -->
+		<Preference
                android:summary="@string/xtended_info_summary" />
                
-	<!-- Telegram group -->
+	    <!-- Telegram group -->
         <Preference
                android:title="@string/xtended_telegram"
                android:summary="@string/xtended_telegram_summary" 
-	       android:icon="@drawable/ic_telegram">
-         <intent android:action="android.intent.action.VIEW"
-                android:data="https://t.me/XtendedOfficial" />
+	       	   android:icon="@drawable/ic_telegram">
+         	   <intent android:action="android.intent.action.VIEW"
+                	android:data="https://t.me/XtendedOfficial" />
         </Preference>
+        
+	    <!-- Core Team -->
+        <PreferenceScreen
+            android:key="the_team"
+            android:title="@string/xtended_about_info"
+	   		android:summary="@string/xtended_about_info_summary_title"
+	   		android:icon="@drawable/ic_x_team">
+            <intent android:action="com.xtended.TeamActivity"/>  			
+        </PreferenceScreen>
+	
+
 
 </PreferenceScreen>
 

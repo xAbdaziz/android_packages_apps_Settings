@@ -144,4 +144,8 @@
     <string name="xtended_telegram">Official Telegram Support Group</string>
     <string name="xtended_telegram_summary">Join here for Support!</string>
 
+	<!-- The Team -->
+	<string name="dialog_team_title">The team</string>
+    <string name="developer_title">Developer</string>
+
 </resources>
