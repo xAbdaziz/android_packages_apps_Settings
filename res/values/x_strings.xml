@@ -136,4 +136,12 @@
     <string name="update_settings_summary">Check for the latest version of the ROM</string>
     <string name="update_package" translatable="false">org.lineageos.updater</string>
     <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
+
+    <!-- About Xtended -->
+    <string name="xtended_about_info">About Xtended</string>
+    <string name="xtended_about_info_summary_title">Know Us!</string>
+    <string name="xtended_info_summary">Xtended is a Custom ROM which focuses on bringing all the features you\'ve dreamed of, without affecting stability or causing performance regression.</string>
+    <string name="xtended_telegram">Official Telegram Support Group</string>
+    <string name="xtended_telegram_summary">Join here for Support!</string>
+
 </resources>
